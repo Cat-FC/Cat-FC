@@ -1,0 +1,21 @@
+<svg width="900" height="110" viewBox="0 0 900 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="signal" x1="80" y1="55" x2="820" y2="55">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".5" stop-color="#84CC16"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-80%" width="160%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="110" rx="18" fill="#05070F"/>
+  <path d="M80 55H210L260 30L318 80L390 55H510L572 30L640 80L700 55H820" stroke="url(#signal)" stroke-width="4" stroke-linecap="round" stroke-dasharray="16 14" filter="url(#glow)">
+    <animate attributeName="stroke-dashoffset" from="180" to="0" dur="2.4s" repeatCount="indefinite"/>
+  </path>
+  <text x="450" y="96" fill="#CBD5E1" font-family="Consolas, monospace" font-size="16" font-weight="700" text-anchor="middle">backend engine / agent interface / product proof</text>
+</svg>

@@ -1,13 +1,13 @@
 <div align="center">
 
-  <img src="./1.jpg" width="100%" alt="Coding desk with mountain sunset" />
+  <img src="./2.jpg" width="100%" alt="Colorful engineering technology wall" />
 
   <br />
   <br />
 
   <img src="https://capsule-render.vercel.app/api?type=venom&height=170&color=0:05070f,45:0f172a,100:22d3ee&text=Cat-FC&fontColor=ffffff&fontSize=58&animation=fadeIn&stroke=84cc16&strokeWidth=1&desc=Java%20Backend%20Developer%20%7C%20RAG%20%2F%20MCP%20%2F%20Agent%20Builder&descAlignY=72&descSize=18" alt="Cat-FC animated header" />
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=24&duration=2600&pause=650&color=84CC16&center=true&vCenter=true&width=920&lines=Backend-first%2C+AI-native%2C+Product-minded;Java+%2F+Python+%2F+C%2B%2B+%2F+C+%2F+Go;RAG+Pipeline+%E2%86%92+MCP+Tools+%E2%86%92+Agent+Workflow;TypeScript+%2F+Vue+%2F+React+when+the+UI+needs+to+ship" alt="Typing animation" />
+  <img src="./assets/hero-pulse.svg" width="100%" alt="Animated backend and agent signal" />
 
   <br />
 
@@ -19,18 +19,15 @@
 
 ---
 
-## `cat /proc/cat-fc`
+## System Core
 
-```txt
-role        Java Backend Developer
-mode        Backend systems + Agent engineering
-languages   Java | Python | C++ | C | Go
-frontend    TypeScript | JavaScript | CSS | Vue | React
-ai-stack    RAG | MCP | Agent | Tool Calling | Workflow
-principle   Build clean. Debug deep. Ship useful.
-```
+<div align="center">
 
-我主要做后端开发，喜欢把复杂问题拆成稳定、清晰、能长期维护的系统。现在重点关注 **RAG、MCP、Agent** 方向，把模型能力接进真实数据、工具链和业务流程里。
+  <img src="./assets/profile-core.svg" width="100%" alt="Animated system core graph" />
+
+</div>
+
+I build backend-first systems and AI-native workflows that connect models with real data, tools, and production-facing processes.
 
 ---
 
@@ -51,27 +48,7 @@ principle   Build clean. Debug deep. Ship useful.
 
 ---
 
-## Agent Runtime Blueprint
-
-```mermaid
-flowchart LR
-    A["Docs / APIs / Database"] --> B["Ingestion"]
-    B --> C["Chunking"]
-    C --> D["Embedding"]
-    D --> E["Vector Search"]
-    E --> F["Rerank"]
-    F --> G["Context Builder"]
-    G --> H["LLM Agent"]
-    H --> I["MCP Tool Server"]
-    I --> J["Action / Answer / Workflow"]
-
-    style A fill:#0f172a,stroke:#22d3ee,color:#e2e8f0
-    style H fill:#172554,stroke:#84cc16,color:#ffffff
-    style I fill:#1e1b4b,stroke:#f59e0b,color:#ffffff
-    style J fill:#052e16,stroke:#22d3ee,color:#ffffff
-```
-
-### What I care about
+## What I care about
 
 - **Backend reliability:** API design, concurrency, cache, queue, data model, logs
 - **RAG quality:** ingestion, chunking, retrieval, rerank, grounding, traceability
@@ -85,39 +62,27 @@ flowchart LR
 
 | Direction | Build Target |
 | --- | --- |
-| `rag-knowledge-base` | 文档解析、向量检索、重排、引用溯源、问答链路 |
-| `mcp-tool-server` | 给 Agent 暴露数据库、文件、内部系统和自动化工具 |
-| `java-service-kit` | Java 后端模板：认证、缓存、队列、指标、CI |
-| `agent-workflow-console` | 计划、执行、工具调用日志、失败重试和人工审核 |
-| `fullstack-devtools` | TypeScript 前端 + 后端 API + 工程化体验 |
+| `rag-knowledge-base` | document parsing, vector retrieval, rerank, citations, answer pipeline |
+| `mcp-tool-server` | expose databases, files, internal systems, and automation tools to agents |
+| `java-service-kit` | Java backend template with auth, cache, queue, metrics, and CI |
+| `agent-workflow-console` | planning, execution, tool-call logs, retry, and human review |
+| `fullstack-devtools` | TypeScript frontend, backend APIs, and developer experience |
 
 ---
 
 ## Runtime Loop
 
-```java
-public final class CatFC {
-    private final String[] backend = {"Java", "Python", "C++", "C", "Go"};
-    private final String[] agent = {"RAG", "MCP", "Agent"};
-    private final String[] frontend = {"TypeScript", "Vue", "React"};
+<div align="center">
 
-    public void run() {
-        while (true) {
-            designSystem();
-            buildBackend();
-            connectTools();
-            shipAgentWorkflow();
-            improveDeveloperExperience();
-        }
-    }
-}
-```
+  <img src="./assets/runtime-loop.svg" width="100%" alt="Animated runtime loop diagram" />
+
+</div>
 
 ---
 
 <div align="center">
 
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=800&size=20&duration=3000&pause=900&color=22D3EE&center=true&vCenter=true&width=760&lines=Backend+is+the+engine.;Agent+is+the+interface.;Product+is+the+proof." alt="Closing typing animation" />
+  <img src="./assets/footer-signal.svg" width="100%" alt="Animated signal footer" />
 
   <br />
   <br />

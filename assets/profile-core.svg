@@ -1,0 +1,55 @@
+<svg width="1000" height="330" viewBox="0 0 1000 330" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="330">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="flow" x1="110" y1="165" x2="890" y2="165">
+      <stop stop-color="#22D3EE"/>
+      <stop offset=".5" stop-color="#84CC16"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <rect width="1000" height="330" rx="28" fill="url(#panel)"/>
+  <rect x="1.5" y="1.5" width="997" height="327" rx="26.5" stroke="#334155" stroke-width="3"/>
+  <g opacity=".22">
+    <path d="M70 64H930M70 120H930M70 176H930M70 232H930M70 288H930" stroke="#38BDF8"/>
+    <path d="M125 40V292M245 40V292M365 40V292M485 40V292M605 40V292M725 40V292M845 40V292" stroke="#38BDF8"/>
+  </g>
+  <path d="M110 165C195 58 306 58 390 165S584 272 680 165 805 58 890 165" stroke="url(#flow)" stroke-width="5" stroke-linecap="round" stroke-dasharray="22 18" filter="url(#softGlow)">
+    <animate attributeName="stroke-dashoffset" from="160" to="0" dur="3s" repeatCount="indefinite"/>
+  </path>
+  <g filter="url(#softGlow)">
+    <circle cx="170" cy="112" r="18" fill="#22D3EE">
+      <animate attributeName="r" values="16;25;16" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="390" cy="165" r="20" fill="#84CC16">
+      <animate attributeName="r" values="18;28;18" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="680" cy="165" r="20" fill="#8B5CF6">
+      <animate attributeName="r" values="18;30;18" dur="2.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="830" cy="112" r="18" fill="#F59E0B">
+      <animate attributeName="r" values="16;25;16" dur="2.1s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+  <g font-family="Consolas, JetBrains Mono, monospace" font-weight="700">
+    <text x="500" y="66" fill="#F8FAFC" font-size="28" text-anchor="middle">CAT-FC SYSTEM CORE</text>
+    <text x="170" y="222" fill="#BAE6FD" font-size="18" text-anchor="middle">Java Backend</text>
+    <text x="390" y="250" fill="#D9F99D" font-size="18" text-anchor="middle">Clean Architecture</text>
+    <text x="680" y="250" fill="#DDD6FE" font-size="18" text-anchor="middle">MCP Tools</text>
+    <text x="830" y="222" fill="#FDE68A" font-size="18" text-anchor="middle">Agent Workflow</text>
+  </g>
+  <rect x="70" y="278" width="860" height="8" rx="4" fill="#0F172A" stroke="#1E293B"/>
+  <rect x="70" y="278" width="210" height="8" rx="4" fill="#22D3EE">
+    <animate attributeName="x" values="70;720;70" dur="3.4s" repeatCount="indefinite"/>
+    <animate attributeName="width" values="160;240;160" dur="3.4s" repeatCount="indefinite"/>
+  </rect>
+</svg>
