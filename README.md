@@ -1,10 +1,5 @@
 <div align="center">
 
-  <img src="./2.jpg" width="100%" alt="Colorful engineering technology wall" />
-
-  <br />
-  <br />
-
   <img src="https://capsule-render.vercel.app/api?type=venom&height=170&color=0:05070f,45:0f172a,100:22d3ee&text=Cat-FC&fontColor=ffffff&fontSize=58&animation=fadeIn&stroke=84cc16&strokeWidth=1&desc=Java%20Backend%20Developer%20%7C%20RAG%20%2F%20MCP%20%2F%20Agent%20Builder&descAlignY=72&descSize=18" alt="Cat-FC animated header" />
 
   <img src="./assets/hero-pulse.svg" width="100%" alt="Animated backend and agent signal" />
@@ -16,6 +11,10 @@
   <img src="https://img.shields.io/badge/Frontend-TypeScript%20%7C%20Vue%20%7C%20React-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="Frontend stack" />
 
 </div>
+
+<br />
+
+<img src="./2.jpg" width="100%" alt="Colorful engineering technology wall" />
 
 ---
 
